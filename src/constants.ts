@@ -1,11 +1,45 @@
 export const STUDIO_NAME = "Prasanth Studio";
+export const STUDIO_EMAIL = "prasanthstudio07@gmail.com";
+export const STUDIO_PHONE = "9597370446";
+export const STUDIO_LOCATION = "Coimbatore";
+
+export const HERO_IMAGE = "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&q=80&w=2069";
 
 export const SOCIAL_LINKS = {
-  instagram: "https://instagram.com",
-  youtube: "https://youtube.com",
-  facebook: "https://facebook.com",
-  twitter: "https://twitter.com",
+  instagram: "https://instagram.com/prasanthstudio",
+  youtube: "https://youtube.com/@prasanthstudio",
+  facebook: "https://facebook.com/prasanthstudio",
+  twitter: "https://twitter.com/prasanthstudio",
 };
+
+export const TESTIMONIALS = [
+  {
+    name: "Arun Kumar",
+    role: "Groom",
+    content: "The way they captured our wedding was pure magic. The cinematic transitions felt like a high-budget movie. Absolutely the best in Coimbatore.",
+    rating: 5
+  },
+  {
+    name: "Deepa S.",
+    role: "Brand Director",
+    content: "Our commercial product shoot was handled with extreme professionalism. The visual consistency and lighting were spot on.",
+    rating: 5
+  },
+  {
+    name: "Sanjay Raj",
+    role: "Cinematography Client",
+    content: "Prasanth Studio doesn't just record events; they tell stories. The unique perspective they bring is refreshing.",
+    rating: 5
+  }
+];
+
+export const BRANCHES = {
+  DEV: "development",
+  QA: "quality-assurance",
+  PROD: "production",
+};
+
+export const CURRENT_BRANCH = BRANCHES.DEV;
 
 export const SERVICES = [
   {
@@ -14,14 +48,14 @@ export const SERVICES = [
     icon: "Camera",
   },
   {
+    title: "Socratic Math Tutor",
+    description: "AI-powered step-by-step guidance for complex problems.",
+    icon: "Brain",
+  },
+  {
     title: "Portrait Sessions",
     description: "Professional portraits that tell your unique story.",
     icon: "User",
-  },
-  {
-    title: "Commercial Shoots",
-    description: "High-end visuals for your brand and products.",
-    icon: "Briefcase",
   },
   {
     title: "Cinematography",
@@ -29,6 +63,11 @@ export const SERVICES = [
     icon: "Video",
   },
 ];
+
+export const SOCRATIC_SYSTEM_PROMPT = `You are a compassionate, patient AI math tutor that uses the Socratic method. 
+Your goal is to guide students through complex problems step-by-step by asking guiding questions rather than giving immediate answers.
+Encourage the student and help them build intuition.
+Use a helpful, friendly tone.`;
 
 export const GALLERY_ITEMS = [
   {
